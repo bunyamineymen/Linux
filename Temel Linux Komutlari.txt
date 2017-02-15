@@ -1,0 +1,86 @@
+Yardim kütüphanelerindeki bilgilere erismek için ;    man
+man pwd
+man uname
+uname - print system information
+.........................
+q ile bu ekrandan çikabiliriz..
+----------------------------------------------------------------------------------------------------------------
+info : man komutuyla ayni isi yapar ,bize daha fazla bilgi verir...
+-----------------------------------------------------------------------------------------------------------------
+whatis :parametre olarak verdigimiz kelimeyi man kitapliklarinda arayarak sonuçlari ekrana basar.... Kisa ve pratik....
+whatis pwd
+---------------------------------------------------------------------------------------------------------
+apropos : aradigimiz kelimeyle ilgili bütün komutlari listelemek için kullanilir...
+apropos routing
+---------------------------------------------------------------------------------------------------------
+which  :parametre olarak verilen komutu path degiskeninde tanimlanan dizinlerin altinda arar ve komutun çalistirilabilir dosya konumunu gösterir...
+which whoami    : dizin arar ve bulur,klasör arar...
+---------------------------------------------------------------------------------------------------------
+whereis : komutun çalistirilabilir dosya konumunu ve komutun kütüphane dosyalarini ve yardim kütüphanesinin yerini gösterir....
+whereis whoami :
+---------------------------------------------------------------------------------------------------------
+file : bulunulan dizindeki dosyalar hakkinda bilgi almamizi saglar...
+file anaconda-ks.cfg
+---------------------------------------------------------------------------------------------------------
+mkdir -p ali/dizin10 : p parametresi sayesinde dizinler olusturabiliriz..
+---------------------------------------------------------------------------------------------------------
+ls -l   : dosyalarin bilgileriyle birlikte siralar..
+ls -altr : dosyalarin ne bilgisi varsa tutar getirir..
+ls -a : gizli dosya ve klasörleri de görebiliriz..
+ls -al : en gizli dosya ve klasörleri genis bilgiyle gösterir...  ll ile ayni
+---------------------------------------------------------------------------------------------------------
+mv komutuyla dosya ve klasörleri tasiyabiliriz...
+mv ali.txt ali
+mv ali/* veli :ali dizinindeki bütün dosyalari veliye tasir...
+mv komutunu dosya ve klasörün ismini degistirmek için de kullanabiliriz...
+mv dizin dizin1
+---------------------------------------------------------------------------------------------------------
+cp : kopyalama
+cp text.txt text1.txt
+cp text1.txt dizin1
+---------------------------------------------------------------------------------------------------------
+ll dizin1/   : dizin 1 i listeler...
+---------------------------------------------------------------------------------------------------------
+cp -R veli/* dizin/  : veli dizinini altinda ne varsa recursively olarak dizin klasörüne kopyalar...
+---------------------------------------------------------------------------------------------------------
+rmdir dizin1 : bos dizini siler...
+---------------------------------------------------------------------------------------------------------
+rm dosya : dosyayi siler...
+---------------------------------------------------------------------------------------------------------
+rm -f dosya :otomatik bize sormadan dosyayi siler...
+rm -rf klasör: recursively ve sormadan sil..
+rm -ri klasör : hem recurively sil ve sorarak siler...cevaplar yes no
+rm -riv : hem sorar hem siler islemden sonra ne sildigini söyler...
+---------------------------------------------------------------------------------------------------------
+Symbolic link'ler bir dosyadan bir dosya bir kisaltma ifade ederler. Shortcut gibi düsünülebilinirler.Symbolic (Soft) link'ler dosyanin veya klasörün su anda bulundugu dizinin yerine baglanti yaparlar.Hard link'ler ise dosya veya klasörün su anda bulundugu fiziksel lokasyonuna baglanti yaparlar.
+dosya baglantilari olusturmak için ln (elen) komutunu kullanabiliriz...
+Orjinal dosyayi silersek artik softlinki kullanamayiz...
+Ancak hardlink dosyasini kullanmaya devam edebiliriz..
+Eger bir dosyanin 10 tane hardlinkini olusturduysak o 10 tane hardlinki silmeden o dosyayi silemeyiz....
+Dosyanin kaçtane hardlinki vardir.. :  stat dosya2
+stat hardlink101
+Links ,kaç gösterirse o kadar baglantisi var demektir...
+ln -s dosya1 dosya1softlink
+ln dosya1 dosya1hardlink
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
+uname -a  : sistem hakkindaki bütün bilgileri basar..
+echo "deneme">deneme
+file --help : file komutunu hangi parametrelerle kullanab
+iliriz...
+cd : change directory
+cd : ilgili kullanicinin home dizinine gider..
+touch bny : bny dosyasini olusturur...
+mkdir,rmdir,
+chmod 777 *
+stat dosya2
+stat komudu nedir ne ise yarar ??
+Inode nedir ?
+
+
+
+
