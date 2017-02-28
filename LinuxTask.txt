@@ -1,0 +1,29 @@
+Hangi program ne kadar ram kullaniyor..
+
+Hangi program ne kadar memory kullaniyor...
+
+Sistemdeki kullanicilar kimler ?
+
+screen -ls
+sudo service mongod restart
+top ve türevleri
+run jar and parameters..
+
+
+
+3 restart method
+
+sudo service mongod restart
+screen -r appp , ctrl c , up  , enter
+apache tomcat restart
+
+
+full history memorise .....
+
+
+
+linux copyyyy
+dba object coppppppy
+java code coopppppyy
+
+Tortoise Git egitim seti ......makale baya uzun....
