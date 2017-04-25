@@ -6,7 +6,7 @@ Sistemdeki kullanicilar kimler ?
 
 screen -ls
 sudo service mongod restart
-top ve türevleri
+top ve tÃ¼revleri
 run jar and parameters..
 
 
@@ -19,11 +19,3 @@ apache tomcat restart
 
 
 full history memorise .....
-
-
-
-linux copyyyy
-dba object coppppppy
-java code coopppppyy
-
-Tortoise Git egitim seti ......makale baya uzun....
